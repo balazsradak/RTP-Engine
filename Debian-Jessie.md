@@ -8,7 +8,7 @@
 
 - apt-get -t jessie-backports install "libavutil-dev"
 
-- apt-get install debhelper  libmysqlclient-dev iptables-dev libavcodec-dev libavfilter-dev libavformat-dev libavutil-dev libcurl4-openssl-dev  libcurl3-openssl-dev  libevent-dev libglib2.0-dev libhiredis-dev libjson-glib-dev libpcap0.8-dev libpcap-dev libpcre3-dev libssl-dev  libxmlrpc-core-c3-dev markdown zlib1g-dev unzip module-assistant nfs-common
+- apt-get install debhelper  libmariadb-dev iptables-dev libavcodec-dev libavfilter-dev libavformat-dev libavutil-dev libcurl4-openssl-dev  libcurl3-openssl-dev  libevent-dev libglib2.0-dev libhiredis-dev libjson-glib-dev libpcap0.8-dev libpcap-dev libpcre3-dev libssl-dev  libxmlrpc-core-c3-dev markdown zlib1g-dev unzip module-assistant nfs-common
 
 - apt-get install dpkg-dev git
 
