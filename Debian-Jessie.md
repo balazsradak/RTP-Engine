@@ -10,9 +10,10 @@
 
 - apt-get install debhelper  libmariadb-dev iptables-dev libavcodec-dev libavfilter-dev libavformat-dev libavutil-dev libcurl4-openssl-dev  libcurl3-openssl-dev  libevent-dev libglib2.0-dev libhiredis-dev libjson-glib-dev libpcap0.8-dev libpcap-dev libpcre3-dev libssl-dev  libxmlrpc-core-c3-dev markdown zlib1g-dev unzip module-assistant nfs-common
 
-- apt-get install dpkg-dev git
+- apt-get install -y dpkg-dev git curl 
 
-- Install bcg729
+
+### Install bcg729
    VER=1.0.4
    curl   https://codeload.github.com/BelledonneCommunications/bcg729/tar.gz/$VER   >bcg729_$VER.orig.tar.gz
    tar zxf bcg729_$VER.orig.tar.gz
